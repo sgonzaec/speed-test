@@ -8,7 +8,7 @@
     isLoading = true;
     isComplete = false;
     try {
-      const response = await fetch("http://127.0.0.1:5000/speed-test");
+      const response = await fetch("https://speed-test-l4w1.onrender.com/speed-test");
       if (!response.ok) {
         isLoading = false;
         throw new Error("Network response was not ok");

@@ -7,29 +7,29 @@
 <div class="content">
   <div class="main">
     <div class="child">
-      <p>Carga</p>
+      <p>Carga &#9195;</p>
       <p>{responseData.upload}</p>
     </div>
     <div class="child">
-      <p>Descarga</p>
+      <p>Descarga &#9196;</p>
       <p>{responseData.download}</p>
     </div>
     <div class="child">
-      <p>Latencia</p>
+      <p>Latencia &#9203;</p>
       <p>{responseData.latency}</p>
     </div>
   </div>
   <div class="main">
     <div class="child">
-      <p>Ping</p>
+      <p>Ping &#10071;</p>
       <p>{responseData.ping}</p>
     </div>
     <div class="child">
-      <p>Proveedor</p>
+      <p>Proveedor &#128666;</p>
       <p>{responseData.sponsor}</p>
     </div>
     <div class="child">
-      <p>Host</p>
+      <p>Host &#127970;</p>
       <p>{responseData.host}</p>
     </div>
   </div>
@@ -47,7 +47,8 @@
     justify-content: space-between;
   }
   .child {
-    border: 1px dotted gray;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
     padding: 0.5em 1em;
     border-radius: 15px;
   }
