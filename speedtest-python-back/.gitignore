@@ -1,0 +1,9 @@
+# Archivos y carpetas generados automáticamente
+__pycache__/
+venv/
+
+# Archivo de registro de errores
+*.log
+
+# Archivo de configuración de PyCharm
+.idea/
