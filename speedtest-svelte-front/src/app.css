@@ -43,6 +43,12 @@ h1 {
   padding: 2em;
 }
 
+@media only screen and (max-width: 768) {
+  .card {
+    padding: 0;
+  }
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;

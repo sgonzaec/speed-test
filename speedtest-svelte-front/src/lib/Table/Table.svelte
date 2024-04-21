@@ -46,6 +46,11 @@
     gap: 20px;
     justify-content: space-between;
   }
+  @media only screen and (max-width: 768) {
+    .main {
+      flex-direction: column;
+    }
+  }
   .child {
     background-color: rgba(255, 255, 255, 0.2);
     box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;

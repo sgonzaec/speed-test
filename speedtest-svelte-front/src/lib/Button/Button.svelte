@@ -3,7 +3,6 @@
   export let isComplete;
   export let responseData;
   
-
   async function fetchData() {
     isLoading = true;
     isComplete = false;
